@@ -6,8 +6,9 @@
 using namespace std; 
 int main()
 {
-	Header.size(80,20);
+	Header.size(80,19);
 	Begin.Start();
-	Game.Deal(); 
+	Game.Pic(); 
+	Game.Deal();
 	return 0; 
 }
